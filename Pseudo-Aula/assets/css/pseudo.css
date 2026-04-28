@@ -1,0 +1,26 @@
+input, select, textarea {
+    background-color: #f8eee2
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(255, 0, 0)
+}
+
+input[type="submit"]:active {
+    background-color:rgb(185, 80, 0)
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(70, 30, 0)
+}
+
+textarea:disabled {
+    background-color: #f8eee2;
+    border-color: #a1a1a1;
+}
+
+textarea:placeholder {
+    border-color: #a1a1a1;
+}
+
